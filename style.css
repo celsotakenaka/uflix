@@ -22,9 +22,11 @@ h1 {
   margin-top: 0px;
   font-family: Arial, Helvetica, sans-serif;
 }
-section {
+.chamada {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
   padding-bottom: 20px;
-  padding-top: 40px;
   background: #e1e991;
   display: flex;
   justify-content: center;
@@ -35,14 +37,11 @@ margin-left: 10%;
 div {
   margin-right: 10%;
 }
-img {
-  height: 150px;
-  margin-left: 10%;
-}
+
 h2 {
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 5%;
-  text-align: center;
+  text-align: left;
 }
 .categoria-videos {
   display: flex;
@@ -51,4 +50,21 @@ h2 {
 }
 p {
   font-size: 25px;
+}
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+.categoria-videos img {
+  opacity: 0.5;
+  height: 150px;
+  margin-left: 10%;
+  }
+.categoria-videos img:hover{
+  opacity: 1.0;
+  border: 2px solid green;
+}
+.categoria h2 {
+  color: darkred;
 }
