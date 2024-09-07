@@ -1,0 +1,51 @@
+html, body {
+    margin: 30px;
+    padding: 0;
+    background-color: #DBE481;
+    
+  }
+  canvas {
+    display: block;
+  }
+  
+header {
+  border-bottom: solid 1px rgb(175, 105, 0);
+  padding: 10px;
+  color: red;
+  font-size: 40px;
+  font-style: normal;
+  font-family: fantasy;
+}
+h1 { 
+  font-size: 30px;
+  padding: 2px;
+  margin-top: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section {
+  padding-bottom: 20px;
+  padding-top: 40px;
+  background: #e1e991;
+  display: flex;
+  justify-content: center;
+}
+.chamada-texto {
+margin-left: 10%;
+}
+div {
+  margin-right: 10%;
+}
+img {
+  height: 150px;
+  margin-left: 10%;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5%;
+  text-align: center;
+}
+.categoria-videos {
+  display: flex;
+  overflow: auto;
+  padding-right: 10px;
+}
